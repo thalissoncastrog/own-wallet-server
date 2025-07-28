@@ -3,7 +3,8 @@
     public class Card : BaseEntity
     {
         public string Name { get; set; }
-        public string Description { get; set; }
-        public double BalanceLimit { get; set; }
+        public int ClosingDay { get; set; }
+        public int DueDay { get; set; }
+        public double Limit { get; set; }
     }
 }
